@@ -1,0 +1,160 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #7D5A50;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    animation-name: yippie;
+    animation-duration: 1s;
+    animation-iteration-count: initial;
+}
+
+@keyframes yippie{
+    from{opacity: 0%}
+    to{opacity: 100%}
+}
+header {
+    background-color: #B4846C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 90px;
+}
+header img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 80px; 
+    width: 80px;
+}
+h1 {
+    font-size: 36px;
+    margin: 20px;
+}
+.navbar {
+    background-color: #FCDEC0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.navbar ul{
+    list-style-type: none; 
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    background-color: #75855f;
+}
+.navbar li{
+    float: left;
+
+}
+
+section {
+    padding-bottom: 3px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #B4846C;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 28px;
+    color: rgb(15, 12, 12);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 18px;
+    color: #171717;
+    
+}
+.card {
+    background-color: #E5B299;
+    border: 1px solid #0a0b0c;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: rgb(57, 36, 8);
+}
+.card h3 {
+    margin: 0;
+}
+footer {
+    background-color: #FCDEC0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+.group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background-color: rgba(0, 140, 186, 0.8); 
+}
+
+.container:hover .overlay {
+    opacity: 0.8; 
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yay {
+    max-width: 1000px;
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+}
+.mkay{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+.yahoo{
+    text-align: center;
+}
